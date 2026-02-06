@@ -1,0 +1,14 @@
+# Exclude video files from git tracking
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Keep documentation
+!README.md
+
+# Common development files to ignore
+.DS_Store
+*.log
+node_modules/
+.env
